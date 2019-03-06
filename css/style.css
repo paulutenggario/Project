@@ -1,0 +1,22 @@
+body{
+  background-color: #e6e2d3;
+  width: 80%;
+  margin: auto;
+}
+
+.div1{
+  text-align: center;
+  background-color: #FE3C12;
+}
+
+.condition{
+  font-size: 75%;
+  margin-bottom: 0px;
+}
+
+.div2{
+  margin-top: 0px;
+  background-color: #ffffff;
+  vertical-align: top;
+  margin:0px;outline:none;
+}
