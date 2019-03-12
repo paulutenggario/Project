@@ -42,53 +42,43 @@ body{
   display: block;
 }
 
-.div2 ol {
-  margin: auto;
+ul {
+  margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffffff;
-  display: flex;   /*delete this part if want to make it to the center*/
-  border-bottom: 1px solid black;
-  list-style: none;
-  text-align:center;
-  text-decoration: none;
+  background-color: #333;
 }
 
-.div2 li {
-  font-size: 1.25em;
-  padding: 0 2.5vw 0 2.5vw;
-  display: inline;
-  font-weight: bold;
+li {
+  float: left;
 }
 
-
-.div2 li a, .dropbtn {
+li a, .dropbtn {
   display: inline-block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.div2 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #e8e5e5;
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
 }
 
-.div2 li.dropdown {
+li.dropdown {
   display: inline-block;
 }
 
-.div2 .dropdown-content {
+.dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 140px;
+  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  font-weight: normal;
-  font-size: 0.9em;
+  z-index: 1;
 }
 
-.div2 .dropdown-content a {
+.dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -96,9 +86,9 @@ body{
   text-align: left;
 }
 
-.div2 .dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
-.div2 .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
@@ -173,10 +163,6 @@ body{
   font-weight: bold;
   float: right;
   margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
 }
 
 .panel {
