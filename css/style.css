@@ -140,12 +140,12 @@ body{
   width: 2vw;
 }
 
-.footer .middle #link1{
+.footer a {
   text-decoration: none;
   color: black;
 }
 
-.footer .middle #link1:hover{
+.footer a:hover{
   text-decoration: none;
   color: #1b10ed;
 }
