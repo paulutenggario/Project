@@ -106,19 +106,29 @@ body{
   height: 250px;
 }
 .footer .left{
+  padding-left: 10vw;
   text-align: left;
   margin-left: auto;
+  width: 30%;
 }
 .footer .middle{
+  padding-left: 5vw;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+  width: 30%;
 }
 .footer .right{
-  text-align: right;
+  padding-left: 5vw;
   margin-right: auto;
+  width: 30%;
 }
 
 .footer #Header{
   font-weight: bold;
+}
+
+.right #sosmed{
+  height: 4.5vh;
+  width: 2vw;
 }
