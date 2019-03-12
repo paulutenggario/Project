@@ -195,3 +195,7 @@ body{
 .accordion table, th, td {
   border: 1px solid black;
 }
+
+.carousel-inner{
+  width: 50vw;
+}
