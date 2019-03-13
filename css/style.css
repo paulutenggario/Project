@@ -118,6 +118,7 @@ body{
 .footer #Header{
   font-weight: bold;
   color: #ffffff;
+  margin: 0 0;
 }
 
 .right #sosmed{
@@ -144,7 +145,7 @@ body{
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 10px 18px;
   width: 100%;
   border: none;
   text-align: left;
@@ -173,16 +174,20 @@ body{
   transition: max-height 0.2s ease-out;
 }
 
+.accordion table, th, td {
+  border: 1px solid black;
+}
+
+.panel{
+  margin: 2vh 2vw 2vh 2vw;
+}
+
 .FAQ-heading{
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 5vh;
   color: black;
   font-style: italic;
-}
-
-.accordion table, th, td {
-  border: 1px solid black;
 }
 
 .carousel{
@@ -242,13 +247,20 @@ body{
   border: none;
   padding: 8px 25px 8px 25px;
   font-size: 15px;
+  border: 1px solid black;
+}
+
+.form button:hover{
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black;
 }
 
 .form .send:hover{
   opacity: .8;
 }
 
-hr{
+.nav-bar-line{
   margin-top: 0rem;
   margin-bottom: 1rem;
   width: 90%;
@@ -270,6 +282,7 @@ hr{
   margin-top: 2vh;
   padding-bottom: 1vh;
 }
+
 .dropdown{
   text-align: center;
   border-left: 1.5px solid black;
@@ -281,3 +294,65 @@ hr{
 /* .nav-item :hover{
   background-color: #e5e5e5;
 } */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  border: none;
+  outline: none;
+  background-color: #1b35c6;
+  color: white;
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 30px;
+}
+
+#myBtn:hover {
+  opacity: .8;
+}
+
+section{
+  padding-top: 0;
+}
+
+.who-we-are{
+  min-height: fit-content;
+  display: inline-block;
+}
+
+.who-we-are-title{
+  float: left;
+  width: 40%;
+  padding-left: 4vw;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.about-us{
+  float: right;
+  width: 58%;
+  padding-right: 4vw;
+}
+
+.about-us img{
+  width: 100%;
+}
+
+#who-we-are{
+  border-top: 1.75px dashed black;
+}
+
+.shop-name{
+  font-family: egizioitalic;
+  font-style: italic;
+  font-weight:400;
+  font-size: 35px;
+  margin-top: 2vh;
+}
+
+.our-story{
+  color: #595858;
+  padding-bottom: 1vh;
+}
