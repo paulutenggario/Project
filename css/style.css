@@ -7,7 +7,6 @@ body{
   background-color: #ffffff;
   width: 80%;
   margin: auto;
-  height: 100%;
   display: block;
 }
 
@@ -15,6 +14,7 @@ body{
   width: 15vw;
   height: 15vh;
 }
+
 .div1{
   text-align: center;
   background-color: #FE3C12;
@@ -46,10 +46,15 @@ body{
   display: flex;
   width: 100%;
   background-color: #e0d0d0;
+  /* #353745 */
   margin: 0;
-  height: 250px;
+  /* height: 225px; */
   bottom: 0;
   /*position: fixed;*/
+  /* color: #9e9e9e; */
+  margin-top: 4vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
 }
 
 .footer .left{
@@ -132,10 +137,57 @@ body{
   border: 1px solid black;
 }
 
+.carousel{
+  position: relative;
+  width: 64%;
+  margin: auto;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
 .carousel-inner{
   width: 50vw;
 }
 
 .bg-light{
-  background-color: red !important;
+  background-color: #ffffff !important;
+}
+
+.contact-page{
+  color: #595858;
+  margin-left: 5vw;
+}
+.contact-page .contact{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5vh;
+}
+.contact-page .form{
+  margin-right: 5vw;
+  padding: 5px;
+}
+.form .name, .email, .phone, .message{
+  width: 98%;
+}
+
+.form .subject, .best-way-contact{
+  color: #595858;
+  padding: 10px 17px;
+  font-size: 15px;
+}
+.form .send{
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  padding: 8px 25px 8px 25px;
+  font-size: 15px;
+}
+
+.form .send:hover{
+  opacity: .8;
+}
+
+hr{
+  margin-top: 0rem;
+  margin-bottom: 1rem;
 }
