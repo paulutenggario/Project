@@ -2,29 +2,49 @@
 <html>
 
   <head>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Online Shop</title>
+    <title>Shop Pop</title>
     <link rel="icon" type="image/png" href="Logo.jpeg">
   </head>
 
   <body>
     <div class="div1">
       <span>Get 10% off when you spend £50*</span>
-      <br>
       <span class="condition">*T&C apply</span>
     </div>
 
     <div class="body1">
       <div class="header">
-      	<a href="index.html">
+      	<div>
+          <a href="index.html">
       		<img id="logo" src="Logo.jpeg" alt="logo">
-      	</a>
-      	<h1>The Beauty Online Shop</h1>
+      	 </a>
+       </div>
+        <div class="header-icon">
+          <a href="">
+            <div class="header-icon-icon">
+              <i class="fa fa-sign-in"></i>
+              <br>
+              <span>Sign in</span>
+            </div>
+          </a>
+          <a href="">
+            <div class="header-icon-icon">
+              <i class="fa fa-shopping-cart"></i>
+              <br>
+              <span>Basket</span>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
 
-    <br><br><br>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -35,7 +55,7 @@
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Women
+              WOMEN
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Clothing</a>
@@ -46,93 +66,107 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Men
+              MEN
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Clothing</a>
               <a class="dropdown-item" href="#">Shoes</a>
             </div>
           </li>
+          <li class="nav-item dropdown"></li>
         </ul>
       </div>
     </nav>
 
-    <h2 class="FAQ-heading">Frequently Asked Questions</h2>
+    <hr>
+    <div class="contact-page">
+      <h1 class="contact">Contact</h1>
 
-    <button class="accordion">HOW DO I RETURN?</button>
-    <div class="panel">
-      <p>You can return your item in our store with a receipt. Alternatively, if it is an online order, you can choose to send it back in the post using the return label we sent with the order.</p>
-    </div>
+      <form class="form" id="form">
+        <p>Your Name (required)
+          <br>
+          <span>
+            <input type="text" class="name" name="name" value size="50" aria-required="true" aria-invalid="false">
+          </span>
+        </p>
+        <p>Email (required)
+          <br>
+          <span>
+            <input type="email" class="email" name="email" value size="50" aria-required="true" aria-invalid="false">
+          </span>
+        </p>
+        <p>Phone
+          <br>
+          <span>
+            <input type="text" class="phone" name="phone" value size="50" aria-invalid="false">
+          </span>
+        </p>
+        <p>Subject
+          <br>
+          <span>
+            <select class="subject" name="subject" aria-required="true" aria-invalid="false">
+              <option value="qwe">---Select---</option>
+              <option value="asd">Order Enquiry</option>
+              <option value="qwe">Store Enquiry</option>
+              <option value="qwe">Refund Enquiry</option>
+              <option value="qwe">Complaint</option>
+            </select>
+          </span>
+        </p>
+        <p>Message
+          <br>
+          <span>
+            <textarea class="message" name="message" rows="10" cols="40" aria-invalid="false"></textarea>
+          </span>
+        </p>
 
-    <button class="accordion">HOW WILL I BE REFUNDED WHEN I RETURN AN ITEM?</button>
-    <div class="panel">
-      <p>You will be refunded to the same payment method you used to make the purchase. If you have paid by credit or debit card, we will refund the balance to the card originally used. If you paid using cash, you will be paid back in cash.</p>
-    </div>
-
-    <button class="accordion">DELIVERY OPTIONS</button>
-    <div class="panel">
-      <table>
-        <tr>
-          <th>Delivery option</th>
-          <th>Delivery cost</th>
-          <th>Delivery times</th>
-        </tr>
-        <tr>
-          <td>UK Standard Delivery</td>
-          <td>£3.99 per order</td>
-          <td>Up to 5 days</td>
-        </tr>
-        <tr>
-          <td>UK Next Day Delivery</td>
-          <td>£8.99 per order</td>
-          <td>Order before 11 p.m.</td>
-        </tr>
-        <tr>
-          <td>Click and Collect</td>
-          <td>-</td>
-          <td>You will be informed via email (can be anywhere between 1 - 3 weeks</td>
-        </tr>
-      </table>
-    </div>
-
-    <button class="accordion">I RECEIVED A FAULTY ITEM, WHAT DO I DO?</button>
-    <div class="panel">
-      <p>We're really sorry to hear that you have received an item that is not in perfect condition. So that we can get this fixed for you please contact us on 07653882164 or on our social media. Please include the following information when you contact us so that we can fix the item as soon as possible:</p>
-      <ul>
-        <li>Your Name</li>
-        <li>Order Number</li>
-        <li>Product name and code</li>
-        <li>Picture of the fault</li>
-        <li>Description of the fault</li>
-      </ul>
+        <p>Best way to contact you
+          <br>
+          <span>
+            <select class="best-way-contact" name="best-way-contact" aria-invalid="false">
+              <option value="email">Email</option>
+            </select>
+          </span>
+        </p>
+        <br>
+        <button id="submit-button">Submit</button>
+      </form>
     </div>
 
     <div class="footer">
       <section class="left">
-        <p id="Header">Contact</p>
-        <p>153 Linton Street</p>
-        <p>London</p>
-        <p>W1E 1NP</p>
-        <p>&#128222; 07653882164</p>
+        <p id="Header">Address</p>
+        <a target="_blank" href="https://goo.gl/maps/cRkiiD8RdyN2">
+          <p>153 Linton Street</p>
+          <p>London</p>
+          <p>W1E 1NP</p>
+        </a>
       </section>
 
       <section class="middle">
         <p id="Header">Help</p>
+        <p><a href="third.html">Contact Us</a></p>
         <p><a href="FAQ.html">FAQ</a></p>
         <p><a href="#">Terms & Conditions</a></p>
       </section>
 
       <section class="right">
         <p id="Header">Follow Us</p>
-        <a href="#">
+        <a href="https://www.facebook.com/" target="_blank">
           <img id="sosmed" src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_1-facebook-128.png" alt="facebook">
         </a>
-        <a>
+        <a href="https://twitter.com/login?lang=en-gb" target="_blank">
           <img id="sosmed" src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_6-twitter-128.png" alt="facebook">
         </a>
-        <a>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank">
           <img id="sosmed" src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_3-instagram-128.png" alt="facebook">
         </a>
+        <br>
+        <i class='fas fa-phone' id="footer-icon"></i>
+        <span> 07653882164 </span>
+        <br>
+        <i class='fas fa-envelope' id="footer-icon"></i>
+        <span><a href = "mailto: shoppop@gmail.com">shoppop@gmail.com</a></span>
       </section>
     </div>
 
