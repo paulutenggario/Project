@@ -202,10 +202,6 @@ body{
   width: 50vw;
 }
 
-.bg-light{
-  background-color: #ffffff !important;
-}
-
 .contact-page{
   color: #595858;
   margin: 0 5vw 0 5vw;
@@ -272,15 +268,23 @@ body{
   color: #ffffff;
 }
 
-.navbar-nav{
-  margin-left: 2vw;
+.bg-light{
+  background-color: #ffffff !important;
+  margin-left: 2.5vw;
 }
 
 .navbar{
   width: 80%;
-  margin: auto;
   margin-top: 2vh;
   padding-bottom: 1vh;
+}
+
+.navbar-light{
+  font-weight: 500;
+}
+
+.navbar-light #sale-title .nav-link{
+  color: red;
 }
 
 .dropdown{
@@ -290,10 +294,6 @@ body{
   margin-bottom: 0;
   width: 13vw;
 }
-
-/* .nav-item :hover{
-  background-color: #e5e5e5;
-} */
 
 #myBtn {
   display: none;
@@ -355,4 +355,18 @@ section{
 .our-story{
   color: #595858;
   padding-bottom: 1vh;
+}
+
+.category{
+  display: flex;
+  margin: auto;
+}
+
+.category img{
+  width: 60%;
+}
+
+.category-sec{
+  width: 40%;
+  text-align: center;
 }
