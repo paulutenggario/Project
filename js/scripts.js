@@ -15,7 +15,7 @@ for (i = 0; i < acc.length; i++) {
 
 function myFunction() {
   document.getElementById('form').reset();
-  // alert("Form submitted!");
+  alert("Form submitted!");
   return;
 }
 
