@@ -55,11 +55,21 @@ body{
   text-align: center;
   background-color: #FE3C12;
   vertical-align: center;
+  font-weight: 500;
+  padding: 0.1vh 0 0.5vh 0;
 }
 
-.condition{
+.condition a{
   font-size: 75%;
-  margin-bottom: 0px;
+  margin: auto;
+  /* margin-bottom: 0px; */
+  text-decoration: none;
+  color: black;
+}
+
+.condition a:hover{
+  text-decoration: none;
+  color: black;
 }
 
 .header img{
