@@ -33,3 +33,13 @@ function scrollFunction() {
 function topFunction() {
   document.documentElement.scrollTop = 0;
 }
+
+function check(form) {
+  if(form.userid.value == "codegirls" && form.pwd.value == "codegirls") {
+    return true;
+  }
+  else {
+    alert("Error Password or Username")
+    return false;
+  }
+}

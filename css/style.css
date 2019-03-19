@@ -405,3 +405,71 @@ section{
   font-size: 1.25em;
   margin-top: 4vh;
 }
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+}
+.log-in-page ul{
+  margin: auto;
+  text-align: center;
+  list-style: none;
+  text-align: center;
+}
+
+.log-in-page ul li{
+  display: inline;
+}
+
+.signinForm div{
+  border: 2px solic black;
+}
+
+.signinForm p{
+  margin-bottom: 0;
+}
+
+.signinForm input{
+  margin-bottom: 2vh;
+}
+
+.signinForm form{
+  width: fit-content;
+  margin: 4vh auto;
+  padding: 4vh 4vw;
+  border: 1px solid black;
+}
+
+.signinForm .Title{
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
+
+.signinForm .login-button{
+  display: block;
+  margin: 1vh auto 0 auto;
+  width: 100px;
+  background-color: #ffffff;
+  border: 1px solid #bab8b8;
+  padding: 0.75vh 0 0.75vh 0;
+}
+
+.signinForm .login-button:hover{
+  box-shadow: 0px 5px 10px #888888;
+  background-color: #f9efef;
+  font-weight: 500;
+}
+
+.createForm form{
+  width: fit-content;
+  margin: 4vh auto;
+  padding: 4vh 4vw;
+  border: 1px solid black;
+}
+
+.createForm .Title{
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
