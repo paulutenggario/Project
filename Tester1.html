@@ -122,7 +122,7 @@
           <p>Password</p>
           <input type="Password" size="25" name="pwd"></input>
           <br>
-          <input class="login-button" type="submit" onclick="return check(this.form)" value="Login"></input>
+          <input class="login-button" type="submit" onclick="return check(this.form)" value="LOGIN"></input>
         </form>
       </div>
     </div>
@@ -131,12 +131,27 @@
       <div>
         <form>
           <p class="Title">Create your Account</p>
-          <p>Username</p>
-          <input type="text" size="25" maxlength="20" name="userid" ></input>
-          <p>Password</p>
+          <p>Email Address *</p>
+          <input type="email" size="25" maxlength="20" name="email"></input>
+          <p>Password *</p>
           <input type="Password" size="25" name="pwd"></input>
+          <p>Use 7 or more characters with at least 1 number</p>
+          <p Name="title">Title *
+            <br>
+            <select>
+              <option>Select title</option>
+              <option>Miss</option>
+              <option>Ms.</option>
+              <option>Mrs.</option>
+              <option>Mr.</option>
+            </select>
+          </p>
+          <p>First Name *</p>
+          <input type="text" size="25" maxlength="20" name="fname" ></input>
+          <p>Last Name *</p>
+          <input type="text" size="25" maxlength="20" name="lname" ></input>
           <br>
-          <input class="login-button" type="submit" onclick="return check(this.form)" value="Login"></input>
+          <input class="login-button" type="submit" onclick="return check(this.form)" value="CREATE AN ACCOUNT"></input>
         </form>
       </div>
     </div>
