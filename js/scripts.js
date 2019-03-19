@@ -53,3 +53,13 @@ function show2(){
   document.getElementById('createForm').style.display = 'none';
   document.getElementById('signinForm').style.display = 'block';
 }
+
+function check(form) {
+  if(form.email.value != "" && form.pass.value != "" && form.title.value != "" && form.fname.value != "" && form.lname.value != "") {
+    return true;
+  }
+  else {
+    alert("Fill in the * box(es)")
+    return false;
+  }
+}

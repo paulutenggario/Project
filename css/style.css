@@ -488,6 +488,12 @@ section{
   padding: 0.75vh 2vw 0.75vh 2vw;
 }
 
+.createForm .login-button:hover{
+  box-shadow: 0px 5px 10px #888888;
+  background-color: #f9efef;
+  font-weight: 500;
+}
+
 .createForm input{
   margin-bottom: 2vh;
 }
