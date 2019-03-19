@@ -35,7 +35,7 @@ function topFunction() {
 }
 
 function check(form) {
-  if(form.userid.value == "codegirls" && form.pwd.value == "codegirls") {
+  if(form.userid.value == "codegirls" && form.pwd.value == "codegirls"){
     return true;
   }
   else {
