@@ -359,7 +359,7 @@ section{
 
 .category{
   display: flex;
-  margin: auto;
+  margin: 10vh 0 0 0;
 }
 
 .category img{
@@ -367,6 +367,31 @@ section{
 }
 
 .category-sec{
-  width: 40%;
+  width: 50%;
   text-align: center;
+  margin: auto;
+}
+
+#main-page-shop {
+  margin-top: 5vh;
+  width: 15vw;
+  background-color: #ffffff;
+  border: 1.5px solid black;
+  padding: 0.75vh 0 0.75vh 0;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+#main-page-shop:hover{
+  box-shadow: 0px 5px 10px #888888;
+  background-color: #f9efef;
+  font-weight: 500;
+}
+
+.slogan{
+  font-style: italic;
+  color: #595858;
+  text-align: center;
+  font-size: 1.25em;
+  margin-top: 4vh;
 }
