@@ -43,3 +43,13 @@ function check(form) {
     return false;
   }
 }
+
+function show1(){
+  document.getElementById('createForm').style.display = 'block';
+  document.getElementById('signinForm').style.display = 'none';
+}
+
+function show2(){
+  document.getElementById('createForm').style.display = 'none';
+  document.getElementById('signinForm').style.display = 'block';
+}

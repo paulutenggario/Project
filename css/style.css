@@ -415,6 +415,7 @@ section{
   text-align: center;
   list-style: none;
   text-align: center;
+  padding: 0;
 }
 
 .log-in-page ul li{
@@ -449,10 +450,10 @@ section{
 .signinForm .login-button{
   display: block;
   margin: 1vh auto 0 auto;
-  width: 100px;
+  width: fit-content;
   background-color: #ffffff;
   border: 1px solid #bab8b8;
-  padding: 0.75vh 0 0.75vh 0;
+  padding: 0.75vh 2vw 0.75vh 2vw;
 }
 
 .signinForm .login-button:hover{
@@ -472,4 +473,47 @@ section{
   font-size: 1.5em;
   font-weight: 600;
   margin-bottom: 2vh;
+}
+
+.createForm{
+  display: none;
+}
+
+.createForm .login-button{
+  display: block;
+  margin: 1vh auto 0 auto;
+  width: fit-content;
+  background-color: #ffffff;
+  border: 1px solid #bab8b8;
+  padding: 0.75vh 2vw 0.75vh 2vw;
+}
+
+.createForm input{
+  margin-bottom: 2vh;
+}
+
+.createForm select{
+  margin-bottom: 2vh;
+}
+
+.createForm p{
+  margin-bottom: 0;
+}
+
+.log-in-page button{
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black;
+  padding: 0.75vh 0 0.75vh 0;
+  width: 200px;
+}
+
+.log-in-page button:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.log-in-page button::after{
+  background-color: #000000;
+  color: #ffffff;
 }

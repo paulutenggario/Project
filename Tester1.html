@@ -113,29 +113,28 @@
       </ul>
     </div>
 
-    <div class="signinForm">
+    <div class="signinForm" id="signinForm">
       <div>
         <form>
           <p class="Title">Sign In</p>
           <p>Username</p>
-          <input type="text" size="25" maxlength="20" name="userid" ></input>
+          <input type="text" size="32" maxlength="20" name="userid" ></input>
           <p>Password</p>
-          <input type="Password" size="25" name="pwd"></input>
+          <input type="Password" size="32" name="pwd"></input>
           <br>
           <input class="login-button" type="submit" onclick="return check(this.form)" value="LOGIN"></input>
         </form>
       </div>
     </div>
 
-    <div class="createForm">
+    <div class="createForm hide" id="createForm">
       <div>
         <form>
           <p class="Title">Create your Account</p>
           <p>Email Address *</p>
-          <input type="email" size="25" maxlength="20" name="email"></input>
+          <input type="email" size="32" maxlength="20" name="email"></input>
           <p>Password *</p>
-          <input type="Password" size="25" name="pwd"></input>
-          <p>Use 7 or more characters with at least 1 number</p>
+          <input type="Password" size="32" name="pwd"></input>
           <p Name="title">Title *
             <br>
             <select>
@@ -147,9 +146,9 @@
             </select>
           </p>
           <p>First Name *</p>
-          <input type="text" size="25" maxlength="20" name="fname" ></input>
+          <input type="text" size="32" maxlength="20" name="fname" ></input>
           <p>Last Name *</p>
-          <input type="text" size="25" maxlength="20" name="lname" ></input>
+          <input type="text" size="32" maxlength="20" name="lname" ></input>
           <br>
           <input class="login-button" type="submit" onclick="return check(this.form)" value="CREATE AN ACCOUNT"></input>
         </form>
